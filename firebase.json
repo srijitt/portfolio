@@ -3,6 +3,7 @@
     "rules": "database.rules.json"
   },
   "hosting": {
+    "site" : "srijit-portfolio",
     "public": "public",
     "ignore": [
       "firebase.json",
