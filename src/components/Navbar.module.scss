@@ -3,12 +3,25 @@
 nav {
   transition: all 400ms;
   z-index: 1;
+  // Add default padding if needed
+  padding: 1rem 2rem;
+}
+
+@media (max-width: 600px) {
+  nav {
+    padding: 2rem 1.5rem; // Increased padding for mobile
+  }
+
+  .moon-icon {
+    margin-top: 1rem; // Adjust this value as needed to prevent overflow
+    display: flex;
+    align-items: center;
+  }
 }
 
 .dark {
   background-color: $dark;
 }
-
 
 .light {
   background-color: $white;
